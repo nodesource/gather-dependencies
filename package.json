@@ -1,0 +1,26 @@
+{
+  "name": "gather-dependencies",
+  "version": "1.0.0",
+  "description": "Gather dependencies similar to shrinkwrap, but with full dependencies.",
+  "main": "gather-dependencies.js",
+  "scripts": {
+    "pretest": "cd test/fixtures/with-npm-install && npm install",
+    "test": "tap test/*.test.js"
+  },
+  "keywords": [
+    "dependencies"
+  ],
+   "author": "NodeSource <npm@nodesource.com > (https://nodesource.com)",
+   "contributors": [
+    "Dan Shaw <dshaw@nodesource.com> (https://github.com/dshaw)",
+    "Daniel Aristizabal <aristi@nodesource.com> (https://github.com/cronopio)",
+    "Julián Duque <julian@nodesource.com> (https://github.com/julianduque)"
+   ],
+  "license": "MIT",
+  "dependencies": {
+    "read-package-tree": "~5.1.0"
+  },
+  "devDependencies": {
+    "tap": "~1.3.2"
+  }
+}

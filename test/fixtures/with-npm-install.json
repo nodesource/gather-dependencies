@@ -1,0 +1,100 @@
+{
+  "name": "with-npm-install",
+  "version": "1.0.0",
+  "dependencies": {
+    "client-request": {
+      "version": "1.0.1",
+      "from": "client-request@1.0.1"
+    }
+  },
+  "devDependencies": {
+    "tape": {
+      "version": "4.2.0",
+      "from": "tape@4.2.0",
+      "dependencies": {
+        "deep-equal": {
+          "version": "1.0.0",
+          "from": "deep-equal@>=1.0.0 <1.1.0"
+        },
+        "defined": {
+          "version": "0.0.0",
+          "from": "defined@>=0.0.0 <0.1.0"
+        },
+        "function-bind": {
+          "version": "1.0.2",
+          "from": "function-bind@>=1.0.2 <1.1.0"
+        },
+        "glob": {
+          "version": "5.0.14",
+          "from": "glob@>=5.0.3 <5.1.0",
+          "dependencies": {
+            "inflight": {
+              "version": "1.0.4",
+              "from": "inflight@>=1.0.4 <2.0.0",
+              "dependencies": {
+                "wrappy": {
+                  "version": "1.0.1",
+                  "from": "wrappy@>=1.0.0 <2.0.0"
+                }
+              }
+            },
+            "minimatch": {
+              "version": "2.0.10",
+              "from": "minimatch@>=2.0.1 <3.0.0",
+              "dependencies": {
+                "brace-expansion": {
+                  "version": "1.1.0",
+                  "from": "brace-expansion@>=1.0.0 <2.0.0",
+                  "dependencies": {
+                    "balanced-match": {
+                      "version": "0.2.0",
+                      "from": "balanced-match@>=0.2.0 <0.3.0"
+                    },
+                    "concat-map": {
+                      "version": "0.0.1",
+                      "from": "concat-map@0.0.1"
+                    }
+                  }
+                }
+              }
+            },
+            "once": {
+              "version": "1.3.2",
+              "from": "once@>=1.3.0 <2.0.0",
+              "dependencies": {
+                "wrappy": {
+                  "version": "1.0.1",
+                  "from": "wrappy@>=1.0.0 <2.0.0"
+                }
+              }
+            },
+            "path-is-absolute": {
+              "version": "1.0.0",
+              "from": "path-is-absolute@>=1.0.0 <2.0.0"
+            }
+          }
+        },
+        "has": {
+          "version": "1.0.1",
+          "from": "has@>=1.0.1 <1.1.0"
+        },
+        "inherits": {
+          "version": "2.0.1",
+          "from": "inherits@>=2.0.1 <2.1.0"
+        },
+        "object-inspect": {
+          "version": "1.0.2",
+          "from": "object-inspect@>=1.0.0 <1.1.0"
+        },
+        "resumer": {
+          "version": "0.0.0",
+          "from": "resumer@>=0.0.0 <0.1.0"
+        },
+        "through": {
+          "version": "2.3.8",
+          "from": "through@>=2.3.4 <2.4.0"
+        }
+      }
+    }
+  }
+}
