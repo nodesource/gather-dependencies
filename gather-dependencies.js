@@ -142,6 +142,7 @@ var buildDependencyReport = function buildDependencyReport (report, data, option
     var entry = report[lookup[depData.package.name]][depData.package.name]
     entry.version = depData.package.version
     entry.from = depData.package._from
+    entry.realpath = depData.realpath
 
     buildDependencyReport(entry, depData, options, depth + 1)
   })
