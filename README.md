@@ -63,10 +63,11 @@ See [examples]('./examples').
 <tr><th align="left">Dan Shaw</th><td><a href="https://github.com/dshaw">GitHub/dshaw</a></td><td><a href="http://twitter.com/dshaw">Twitter/@dshaw</a></td></tr>
 <tr><th align="left">Julian Duque</th><td><a href="https://github.com/julianduque">GitHub/julianduque</a></td><td><a href="http://twitter.com/julian_duque">Twitter/@julian_duque</a></td></tr>
 <tr><th align="left">Daniel Aristizabal</th><td><a href="https://github.com/cronopio">GitHub/cronopio</a></td><td><a href="http://twitter.com/cronopio2">Twitter/@cronopio2</a></td></tr>
+<tr><th align="left">Adrian Estrada</th><td><a href="https://github.com/edsadr">GitHub/edsadr</a></td><td><a href="http://twitter.com/edsadr">Twitter/@edsadr</a></td></tr>
 </tbody></table>
 
 Contributions are welcomed from anyone wanting to improve this project!
 
 ## License & Copyright
 
-**gather-dependencies** is Copyright (c) 2015 NodeSource and licensed under the MIT licence. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
+**gather-dependencies** is Copyright (c) 2016 NodeSource and licensed under the MIT licence. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
