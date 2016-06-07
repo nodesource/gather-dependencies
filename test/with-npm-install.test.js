@@ -33,6 +33,7 @@ test('with-npm-install', function cb (t) {
       , expectedJson.dependencies['client-request'].from
       , 'dependency entry from'
     )
+    t.ok(data.dependencies['client-request'].realpath, 'dependency entry realpath')
     t.ok(!data.dependencies['client-request'].dependencies, 'empty dependencies declaration excluded')
     t.ok(!data.dependencies['client-request'].devDependencies, 'devDependencies declaration excluded')
 
@@ -50,6 +51,7 @@ test('with-npm-install', function cb (t) {
 
     // tape dependency, through
     t.ok(depTape.dependencies.through, 'tape has through as a dependency')
+    t.ok(depTape.dependencies.through.realpath, 'nested dependency has a realpath entry')
     t.equal(
       depTape.dependencies.through.version
       , expectedTape.dependencies.through.version
